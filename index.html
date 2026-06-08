@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI-Enhanced Learning Architecture</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="ai-architecture" id="architecture">
+      <div class="hero">
+        <h1>AI-Enhanced Learning Architecture</h1>
+        <p>A systematic approach to building intelligent, scalable educational experiences.</p>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="AI learning architecture columns">
+        <button class="tab is-active" role="tab" aria-selected="true" data-target="program">
+          Program Development
+        </button>
+        <button class="tab" role="tab" aria-selected="false" data-target="implementation">
+          Implementation &amp; Training
+        </button>
+        <button class="tab" role="tab" aria-selected="false" data-target="evaluation">
+          Evaluation &amp; Iteration
+        </button>
+      </div>
+
+      <div class="grid">
+        <div class="column" data-column="program">
+          <div class="column-title is-active">1</div>
+          <div class="cards" id="program-cards"></div>
+        </div>
+
+        <div class="column" data-column="implementation">
+          <div class="column-title">2</div>
+          <div class="cards empty" id="implementation-cards" aria-hidden="true"></div>
+        </div>
+
+        <div class="column" data-column="evaluation">
+          <div class="column-title">3</div>
+          <div class="cards empty" id="evaluation-cards" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
